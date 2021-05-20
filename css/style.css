@@ -132,7 +132,7 @@ html, body {
   .content__icon-discord {
     background: url("../img/discord.png") 0 50%/100% auto no-repeat; }
   .content__icon-bilimland {
-    background: url("../img/bilimland.png") 0 50%/100% auto no-repeat; }
+    background: url("../img/bilimland.png") 0 0/auto 100% no-repeat; }
 
 .content__image {
   position: relative;
