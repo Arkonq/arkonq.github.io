@@ -1,258 +1,88 @@
-<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
-<!-- Оболочка документа, указываем язык содержимого -->
 <html lang="en">
-<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
 
 <head>
-  <!-- Заголовок страницы в браузере -->
-  <title>Main Page</title>
-  <!-- Подключаем CSS -->
+  <title>Porfolio Deryabin Boris</title>
   <link rel="stylesheet" href="css/style.css" />
-  <!-- Кодировка страницы -->
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icons/logo.ico">
 </head>
-<!-- Отображаемое тело страницы -->
 
 <body>
-  <a href="spin/index.html">Второй сайт</a>
-  <br>  
-  <a href="mosto/index.html">Третий сайт</a>
-  <a href="warkinon/index.html">Четвертый сайт</a>
-  <a href="expoforum/index.html">Пятый сайт</a>
-  <a href="myfolio/index.html">Шестой сайт</a>
-<header class="header">
-  <div class="container">
-    <nav class="header__body">
-      <a href="index.html" class="header__logo">Zodkoo</a>
-      <div class="header__burger">
-        <span></span>
-      </div>
-      <nav class="header__menu">
-        <ul class="header__list">
-          <li class="header__link"><a href="index.html#home">Home</a></li>
-          <li class="header__link"><a href="index.html#features">Features</a></li>
-          <li class="header__link"><a href="index.html#plans">Plans</a></li>
-          <li class="header__link"><a href="index.html#clients">Clients</a></li>
-          <li class="header__link">
-            <a href="#">Pages <img src="img/icons/arrow-down.svg" alt=""></a>
-            <div class="header__pages-top">
-              <div class="header__pages-bottom">
-                <a class="header__pages-link" href="about-us.html">About Us</a>
-                <a class="header__pages-link" href="contact.html">Contact</a>
-                <a class="header__pages-link" href="faq.html">FAQ</a>
-                <a class="header__pages-link" href="jobs.html">Jobs</a>
+  <div class="wrapper">
+    <main class="content">
+      <section class="home container">
+        <div class="home__body">
+          <div class="home__col">
+            <div class="home__img">
+              <img src="img/home/home_bg.jpeg" alt="">
+            </div>
+          </div>
+          <div class="home__col">
+            <div class="home__info">
+              <h1 class="home__title"><span>React Frontend Developer</span><br> Дерябин Борис</h1>
+              <div class="home__btns">
+                <a target="_blank" href="https://drive.google.com/file/d/1sX0l8OOqA9Q8OibM6lG2NEqLehOC4QNJ/view?usp=sharing" class="home__btn home__btn_active home__btn_cv">Моё резюме</a>
+                <a target="_blank" href="https://github.com/Arkonq?tab=repositories" class="home__btn home__btn_git">GitHub</a>
               </div>
-            </div>
-          </li>
-        </ul>
-        <div class="header__login">
-          <a href="index.html" class="header__log">Login</a>
-          <a href="index.html" class="header__try">Try for Free</a>
-        </div>
-      </nav>
-    </nav>
-  </div>
-</header>  <div class="wrapper">
-    <div class="content">
-      <section class="home" id="home">
-        <div class="container">
-          <h1 class="home__title">Zodkoo is a fully responsive landing page template</h1>
-          <h5 class="home__subtitle">Zodkoo is a fully responsive landing page built using the latest Bootstrap framework. It's designed for describing your app, agency or business. The clean and well commented code allows easy customization of the theme.</h5>
-          <a href="#" class="button">Get Started</a>
-        </div>
-      </section>
-      <section class="info">
-        <div class="container">
-          <div class="info__logo"><img src="../img/info/medal.png" alt=""></div>
-          <h2 class="title">Clean and Ultra Modern Design</h2>
-          <div class="info__info">
-            <div class="info__left">
-              <div class="info__title">Praesent et viverra massa non varius magna eget nibh vitae velit posuere efficitur.</div>
-              <div class="info__text">The clean and well commented code allows easy customization of the theme.It's designed for describing your app, agency or business.We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.We put a lot of effort in design, as it’s the most important ingredient of successful website.</div>
-              <a href="#" class="info__button button">Learn More</a>
-            </div>
-            <div class="info__right"><img src="../img/info/macbook.png" alt=""></div>
+              <a target="_blank" href="https://t.me/arkonqq" class="home__btn home__btn_tg">Связаться со мной в Telegram</a>
+              </div>
           </div>
         </div>
       </section>
-      <section class="features" id="features">
-        <div class="container">
-          <h2 class="title">It's designed for describing your app, agency or business</h2>
-          <h4 class="subtitle">The clean and well commented code allows easy customization of the theme.It's designed for describing your app, agency or business.</h4>
-          <div class="features__list">
-            <div class="features__item">
-              <div class="features__img"><img src="../img/features/rocket.svg" alt=""></div>
-              <div class="features__name">Strategy Solutions</div>
-              <div class="features__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
-            </div>
-            <div class="features__item">
-              <div class="features__img"><img src="../img/features/science.svg" alt=""></div>
-              <div class="features__name">Digital Design</div>
-              <div class="features__text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin litera..</div>
-            </div>
-            <div class="features__item">
-              <div class="features__img"><img src="../img/features/analysis.svg" alt=""></div>
-              <div class="features__name">Analytics Solutions</div>
-              <div class="features__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
-            </div>
-            <div class="features__item">
-              <div class="features__img"><img src="../img/features/calendar.svg" alt=""></div>
-              <div class="features__name">Strategy Solutions</div>
-              <div class="features__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
-            </div>
-            <div class="features__item">
-              <div class="features__img"><img src="../img/features/credit-card.svg" alt=""></div>
-              <div class="features__name">Digital Design</div>
-              <div class="features__text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin litera..</div>
-            </div>
-            <div class="features__item">
-              <div class="features__img"><img src="../img/features/headphones.svg" alt=""></div>
-              <div class="features__name">Analytics Solutions</div>
-              <div class="features__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
-            </div>
+      <section class="portfolio container">
+        <div class="portfolio__body">
+          <div class="portfolio__title">Портфолио</div>
+          <div class="portfolio__items">
+            <a a target="_blank" href="expoforum/index.html" class="portfolio__item">
+              <div class="portfolio__img"><img src="img/portfolio/portfolio_1.jpg" alt=""></div>
+              <p class="portfolio__name">Expoforum</p>
+            </a>
+            <a a target="_blank" href="mosto/index.html" class="portfolio__item">
+              <div class="portfolio__img"><img src="img/portfolio/portfolio_2.jpg" alt=""></div>
+              <p class="portfolio__name">Mosto</p>
+            </a>
+            <a a target="_blank" href="myfolio/index.html" class="portfolio__item">
+              <div class="portfolio__img"><img src="img/portfolio/portfolio_3.jpg" alt=""></div>
+              <p class="portfolio__name">MyFolio</p>
+            </a>
+            <a a target="_blank" href="spin/index.html" class="portfolio__item">
+              <div class="portfolio__img"><img src="img/portfolio/portfolio_4.jpg" alt=""></div>
+              <p class="portfolio__name">Spin</p>
+            </a>
+            <a a target="_blank" href="warkinon/index.html" class="portfolio__item">
+              <div class="portfolio__img"><img src="img/portfolio/portfolio_5.jpg" alt=""></div>
+              <p class="portfolio__name">Warkinon</p>
+            </a>
+            <a a target="_blank" href="zodkoo/index.html" class="portfolio__item">
+              <div class="portfolio__img"><img src="img/portfolio/portfolio_6.jpg" alt=""></div>
+              <p class="portfolio__name">Zodkoo</p>
+            </a>
           </div>
         </div>
       </section>
-      <section class="plans" id="plans">
-        <div class="container">
-          <h2 class="title">Choose your perfect plan</h2>
-          <h4 class="subtitle">The clean and well commented code allows easy customization of the theme.It's designed for describing your app, agency or business.</h4>
-          <div class="plans__list">
-            <div class="plans__item">
-              <div class="plans__name">BASIC</div>
-              <div class="plans__price">$19</div>
-              <div class="plans__period">Per Month</div>
-              <div class="plans__features">
-                <div class="plans__feature">10 GB Storage</div>
-                <div class="plans__feature">500 GB Bandwidth</div>
-                <div class="plans__feature">Email Support</div>
-                <div class="plans__feature">24x7 Support</div>
-              </div>
-              <a href="#" class="plans__btn button">SignUp Now</a>
-            </div>
-            <div class="plans__item">
-              <div class="plans__name">PREMIUM</div>
-              <div class="plans__price">$29</div>
-              <div class="plans__period">Per Month</div>
-              <div class="plans__features">
-                <div class="plans__feature">10 GB Storage</div>
-                <div class="plans__feature">500 GB Bandwidth</div>
-                <div class="plans__feature">Email Support</div>
-                <div class="plans__feature">24x7 Support</div>
-              </div>
-              <a href="#" class="plans__btn button">SignUp Now</a>
-            </div>
-            <div class="plans__item">
-              <div class="plans__name">DEVELOPER</div>
-              <div class="plans__price">$39</div>
-              <div class="plans__period">Per Month</div>
-              <div class="plans__features">
-                <div class="plans__feature">10 GB Storage</div>
-                <div class="plans__feature">500 GB Bandwidth </div>
-                <div class="plans__feature">Email Support</div>
-                <div class="plans__feature">24x7 Support</div>
-              </div>
-              <a href="#" class="plans__btn button">SignUp Now</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="clients" id="clients">
-        <div class="container">
-          <h2 class="title">Trusted by Thousands</h2>
-          <h4 class="subtitle">The clean and well commented code allows easy customization of the theme.It's designed for describing your app, agency or business.</h4>
-          <div class="clients__companies">
-            <a href="#" class="clients__company"><img src="../img/clients/microsoft.png" alt=""></a>
-            <a href="#" class="clients__company"><img src="../img/clients/google.png" alt=""></a>
-            <a href="#" class="clients__company"><img src="../img/clients/instagram.png" alt=""></a>
-            <a href="#" class="clients__company"><img src="../img/clients/converse.png" alt=""></a>
-          </div>
-          <div class="clients__reviews">
-            <div class="clients__review">
-              <div class="clients__review-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
-              <div class="clients__review-by">
-                <div class="clients__review-img"> <img src="../img/clients/user.jpg" alt=""></div>
-                <div class="clients__review-author">
-                  <div class="clients__review-name">Calebogden</div>
-                  <div class="clients__review-company">Another company , City</div>
-                </div>
-              </div>
-            </div>
-            <div class="clients__review">
-              <div class="clients__review-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
-              <div class="clients__review-by">
-                <div class="clients__review-img"> <img src="../img/clients/user2.jpg" alt=""></div>
-                <div class="clients__review-author">
-                  <div class="clients__review-name">Dancounsell</div>
-                  <div class="clients__review-company">Another company , City</div>
-                </div>
-              </div>
-            </div>
-            <div class="clients__review">
-              <div class="clients__review-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
-              <div class="clients__review-by">
-                <div class="clients__review-img"> <img src="../img/clients/user3.jpg" alt=""></div>
-                <div class="clients__review-author">
-                  <div class="clients__review-name">Indianguru</div>
-                  <div class="clients__review-company">Another company , City</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="newsletter">
-        <div class="container">
-          <h2 class="newsletter__title title">Be engaged Newsletter</h2>
-          <h4 class="newsletter__subtitle subtitle">The clean and well commented code allows easy customization of the theme.It's designed for describing your app, agency or business.</h4>
-          <form action="#">
-            <input type="text" class="newsletter__email" placeholder="Enter e-mail address">
-            <button class="newsletter__btn button">Subscribe</button>
-            <div class="newsletter__unsub">You can un-subscribe at any time.</div>
-          </form>
-        </div>
-      </section>
+    </main>
+<footer class="footer container">
+  <div class="footer__body">
+    <div class="footer__links">
+      <span class="footer__title">Контакты</span>
+      <p class="footer__text">Астана, Казахстан</p>
+      <a href="tel:+77078510204" class="footer__link" href="#">+7-707-851-02-04</a>
+      <a target="_blank" href="mailto: arkonq@gmail.com" class="footer__link" href="#">arkonq@gmail.com</a>
     </div>
-  </div>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__cols">
-      <div class="footer__col">
-        <div class="footer__name">Zodkoo</div>
-        <a href="" class="footer__link">Home</a>
-        <a href="" class="footer__link">Features</a>
-        <a href="" class="footer__link">Team</a>
-        <a href="" class="footer__link">FAQ</a>
-      </div>
-      <div class="footer__col">
-        <div class="footer__name">Social</div>
-        <a href="" class="footer__link">Facebook</a>
-        <a href="" class="footer__link">Twitter</a>
-        <a href="" class="footer__link">Behance</a>
-        <a href="" class="footer__link">Dribbble</a>
-      </div>
-      <div class="footer__col">
-        <div class="footer__name">Support</div>
-        <a href="" class="footer__link">Help & Support</a>
-        <a href="" class="footer__link">Privacy Policy</a>
-        <a href="" class="footer__link">Terms & Conditions</a>
-      </div>
-      <div class="footer__col">
-        <div class="footer__name">Contact</div>
-        <a href="" class="footer__link">795 Folsom Ave, Suite 600</a>
-        <a href="" class="footer__link">San Francisco, CA 94107</a>
-        <a href="" class="footer__link">P: (123) 456-7890</a>
-        <a href="" class="footer__link">E: email@email.com</a>
-      </div>
+    <div class="footer__links">
+      <span class="footer__title">Ссылки</span>
+      <a target="_blank" href="https://drive.google.com/file/d/1sX0l8OOqA9Q8OibM6lG2NEqLehOC4QNJ/view?usp=sharing"  class="footer__link" href="#">Резюме</a>
+      <a target="_blank" href="https://github.com/Arkonq?tab=repositories" class="footer__link" href="#">GitHub</a>
+      <a target="_blank" href="https://t.me/arkonqq" class="footer__link" href="#">Telegram</a>
     </div>
-    <div class="footer__copyright">2023 © Zodkoo</div>
   </div>
 </footer>
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script> -->
 <!-- js -->
-<script src="js/script.js"></script></body>
+<!-- <script src="js/script.js"></script> -->  </div>
+</body>
 
 </html>

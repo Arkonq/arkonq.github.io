@@ -1,10 +1,15 @@
-$(document).ready(function() {
-	$('.header__burger').click(function(event) {
-		$('.header__burger,.header__menu').toggleClass('active');
-		$('body').toggleClass('lock');
-	});
-	$('.header__menu').click(function(){
-       $('.header__burger, .header__menu').removeClass('active');
-       $('body').removeClass('lock');
-	});	
+const burger = document.querySelector('.header__burger');
+const menu = document.querySelector('.header__menu');
+
+document.addEventListener("click", (event) => {
+	if(event.target.closest('.header__burger')) {
+		menu.classList.toggle('active');
+		burger.classList.toggle('active');
+		document.body.classList.toggle('lock');
+	}
+	if(!event.target.closest('.header__burger')) {
+		menu.classList.remove('active');
+		burger.classList.remove('active');
+		document.body.classList.remove('lock');
+	}	
 });
